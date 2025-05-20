@@ -1,0 +1,15 @@
+@import url(header.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-titulo: blue;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    color: var(--cor-titulo);
+}
