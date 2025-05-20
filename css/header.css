@@ -32,14 +32,30 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 55vw;
 }
 
 .menuBotoes:checked~.listaMenu {
     display: block;
+    justify-content: s;
 }
 
 .listaMenuTitulo,
 .listaMenuItens {
     padding: 1em;
     background-color: var(--branco);
+}
+
+.listaMenuTitulo {
+    color: var(--laranja);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.listaMenuLink {
+    background: var(--azul);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }

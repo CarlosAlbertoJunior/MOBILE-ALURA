@@ -1,15 +1,19 @@
-@import url(header.css);
+@import url("header.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
-    --cor-titulo: blue;
     --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul: #020f4a;
+    --fonte-principal: "roboto";
+
 }
 
 body {
     background-color: var(--cor-de-fundo);
-}
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 
-h1 {
-    color: var(--cor-titulo);
+
 }
