@@ -40,6 +40,10 @@
     justify-content: s;
 }
 
+.menuBotoes {
+    display: none;
+}
+
 .listaMenuTitulo,
 .listaMenuItens {
     padding: 1em;
@@ -49,7 +53,7 @@
 .listaMenuTitulo {
     color: var(--laranja);
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .listaMenuLink {

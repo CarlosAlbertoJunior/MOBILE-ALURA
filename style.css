@@ -1,4 +1,6 @@
-@import url("header.css");
+@import url("css/header.css");
+@import url("css/banner.css");
+@import url("css/carrocel.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -14,6 +16,4 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-
-
 }
