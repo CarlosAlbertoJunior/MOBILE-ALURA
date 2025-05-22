@@ -37,7 +37,7 @@
 
 .menuBotoes:checked~.listaMenu {
     display: block;
-    justify-content: s;
+    justify-content: center;
 }
 
 .menuBotoes {

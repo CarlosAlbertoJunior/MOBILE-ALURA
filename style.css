@@ -1,6 +1,9 @@
 @import url("css/header.css");
 @import url("css/banner.css");
 @import url("css/carrocel.css");
+@import url("css/topicos.css");
+@import url("css/contato.css");
+@import url("css/rodape.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -8,6 +11,7 @@
     --laranja: #EB9B00;
     --azul: #020f4a;
     --fonte-principal: "roboto";
+    --fonte-secundaria: "josefi";
 
 }
 

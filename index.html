@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+
 
 </head>
 
@@ -37,12 +39,14 @@
                     </li>
                 </ul>
                 <img src="img/Logo.svg" alt="Logo da AluraBooks">
+                <!-- <h1 class="containerTitulo"><b>Alura</b>Books</h1> -->
             </div>
-            <div class="container">
-                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-                <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras"></a>
-                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-            </div>
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
+            <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras"></a>
+            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
+        </div>
 
         </div>
     </header>
@@ -102,9 +106,52 @@
     </section>
     <section> <!--TOPICOS-->
         <div class="topicos">
+            <h2>Tópicos visitados recentemente.</h2>
+            <div class="topicosLista">
+                <ul>
+                    <li>
+                        <a href="">Android</a>
+                    </li>
+                    <li>
+                        <a href="">Markenting Digital</a>
+                    </li>
+                    <li>
+                        <a href="">Startups</a>
+                    </li>
+                    <li>
+                        <a href="">Agile</a>
+                    </li>
+                    <li>
+                        <a href="">HTML e CSS</a>
+                    </li>
+                    <li>
+                        <a href="">Python</a>
+                    </li>
+                    <li>
+                        <a href="">java</a>
+                    </li>
+                    <li>
+                        <a href="">oo</a>
+                    </li>
+                </ul>
+            </div>
+
 
         </div>
     </section>
+    <section> <!--CONTATO-->
+        <div class="contato">
+            <h2>Fique por dentro das Novidades!</h2>
+            <p>Atualizações de e-books,novos livros, promoções e outros.</p>
+            <input type="email" class="barraPesquisa" placeholder="Cadastre seu e-mail">
+        </div>
+    </section>
+    <hr />
+    <footer>
+        <div class="rodape">
+            <h2>Grupo Alura</h2>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
