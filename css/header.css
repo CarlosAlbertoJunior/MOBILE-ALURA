@@ -63,3 +63,60 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.containerTitulo {
+    display: none;
+}
+
+.menuLista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .containerTitulo {
+        font-family: var(--fonto-secundario);
+        font-size: 2rem;
+        display: block;
+    }
+
+    .containerTitulo h1 {
+        font-size: 400;
+    }
+
+    .containerTitulo b {
+        font-weight: 700;
+    }
+
+    .iconeVisivel {
+        display: none;
+    }
+
+    /* DEIXAR ELE VISIVEL NO TAMANHO DA PAGINA  */
+    .menuLista {
+        display: block;
+    }
+
+    .menuLista ul {
+        display: flex;
+    }
+
+    .menuLista a {
+        font-family: var(--fonto-secundario);
+        margin: 1em;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: var(--azul);
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .menuHamburguer {
+        display: none;
+    }
+
+    .opcoesBotao:checked~.listaMenu {
+        display: block;
+    }
+
+
+}
