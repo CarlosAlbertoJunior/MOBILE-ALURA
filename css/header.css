@@ -96,13 +96,14 @@
         display: block;
     }
 
-    .menuLista ul {
+    .menuLista>ul {
         display: flex;
     }
 
-    .menuLista a {
+    .listaItens {
         font-family: var(--fonto-secundario);
         margin: 1em;
+        padding: 0 1em;
         text-decoration: none;
         font-size: 1.2em;
         color: var(--azul);
@@ -110,12 +111,21 @@
         text-transform: uppercase;
     }
 
+    .listaItens a {
+        text-decoration: none;
+    }
+
     .menuHamburguer {
         display: none;
     }
 
-    .opcoesBotao:checked~.listaMenu {
+    .opçõesBotão:checked~.listaMenu {
         display: block;
+        width: auto;
+    }
+
+    #opçõesMenu {
+        display: none;
     }
 
 

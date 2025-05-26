@@ -30,3 +30,13 @@
     font-size: 1rem;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos h2 {
+        font-size: 2rem;
+    }
+
+    .topicosLista a {
+        font-size: 1.2rem;
+    }
+}

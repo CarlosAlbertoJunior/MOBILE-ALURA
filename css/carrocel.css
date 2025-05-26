@@ -88,3 +88,25 @@
     font-weight: 700;
     font-family: var(--fonte-principal);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrocel h2 {
+        font-size: 1.5rem;
+    }
+
+    .descricao h2 {
+        font-size: 2rem;
+    }
+
+    .descricao h3 {
+        font-size: 1.5rem;
+    }
+
+    .descricao p {
+        font-size: 1.3rem;
+    }
+
+    .botaoAncora a {
+        font-family: 1.5rem;
+    }
+}
